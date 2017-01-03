@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/clashr/go-idtools"
+	"github.com/clashr/go-pools"
+	"github.com/clashr/go-system"
 )
 
 // UnpackLayer unpack `layer` to a `dest`. The stream `layer` can be

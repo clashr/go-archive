@@ -7,7 +7,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/clashr/go-system"
 )
 
 func getWhiteoutConverter(format WhiteoutFormat) tarWhiteoutConverter {

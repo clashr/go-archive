@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/clashr/go-system"
 )
 
 func TestCanonicalTarNameForPath(t *testing.T) {

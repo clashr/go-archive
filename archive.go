@@ -18,12 +18,12 @@ import (
 	"syscall"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/promise"
-	"github.com/docker/docker/pkg/system"
+	"github.com/clashr/go-fileutils"
+	"github.com/clashr/go-idtools"
+	"github.com/clashr/go-ioutils"
+	"github.com/clashr/go-pools"
+	"github.com/clashr/go-promise"
+	"github.com/clashr/go-system"
 )
 
 type (

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/clashr/go-ioutils"
 )
 
 func TestApplyLayerInvalidFilenames(t *testing.T) {
